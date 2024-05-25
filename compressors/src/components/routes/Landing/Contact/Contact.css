@@ -1,0 +1,83 @@
+/* src/components/routes/Landing/Contact/Contact.css */
+
+.contact-container{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    background: linear-gradient(to right, white 75%, #D43E3E 75%);
+}
+
+.contact-left{
+    width: 50%;
+    text-align: left;
+    margin-left: 2vw;
+    color: black;
+}
+
+.contact-heading{
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 3rem;
+}
+
+.contact-heading-color{
+    font-weight: 400;
+    color: #D43E3E;
+
+}
+
+.contact-subheading{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-weight: 300;
+    width: 90%;
+
+}
+
+.cont-form{
+    width: 90%;
+}
+
+
+.in-bts{
+    width:100%;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid rgb(158, 158, 158);
+}
+
+.country-bookForm{
+    width: 70%;
+}
+
+.postal-bookForm{
+    width: 20%;
+    margin-left: 10%;
+}
+
+.bookFormbutton{
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid;
+    background-color: #D43E3E;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.bookFormbutton:hover{
+    background-color: #b33636;
+}
+
+.contact-right{
+    width: 50%;
+}
+
+.contact-image{
+    width: 75%;
+    height: 88%;
+    margin: auto;
+    margin-top: 8vh;
+}

@@ -1,0 +1,55 @@
+/* src/components/routes/Landing/Footer/Footer.css */
+
+
+.footer-container{
+    background-color: #850B0B;
+    padding: 1rem;
+}
+
+.first-footer-cont{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+}
+
+.footer-icons-social{
+    color: white;
+    font-size:20px;
+    margin-left: -5vw;
+
+}
+
+.footer-second-third{
+    width:20vw;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-topics{
+    color: rgb(124, 124, 124);
+
+}
+
+.dropdown-items{
+    text-decoration: none;
+    color: white;
+
+}
+
+.dropdown-items:hover{
+    color: gray;
+}
+
+
+.everything{
+    color: white;
+}
+
+.email-phone{
+    text-decoration: none;
+    color: white;
+}

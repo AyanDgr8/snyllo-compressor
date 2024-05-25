@@ -1,0 +1,109 @@
+/* src/components/routes/Landing/Seventh/Seventh.css */
+
+
+.seventh-container{
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.seventh-first-left{
+    width:50%;
+    text-align: left;
+    margin-left:2rem ;
+    color: black;
+}
+
+.seventh-f-l-content{
+    margin-left: 2vw;
+    margin-bottom: 5vh;
+    margin-top: 15vh;
+
+}
+
+.seventh-f-l-heading1{
+    font-size: 18px;
+    font-weight: 500;
+    color: #D43E3E;
+}
+
+.seventh-f-l-heading2{
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+.seventh-f-l-para{
+    color: rgb(54, 42, 42);
+
+}
+
+.seventh-first-right{
+    width: 50%;
+}
+
+
+
+.factory3{
+    width: 80%;
+    height: 30rem;
+    border: 1px solid;
+    border-radius: 5px;
+    border: none;
+}
+
+
+/* *****************8 */
+
+.seventh-cont {
+    position: relative;
+    height: 110vh;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.children {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110vh;
+    z-index: -1;
+}
+
+.seventh-content {
+    position: relative; 
+    z-index: 10;
+    color: white; 
+    background-color: #c61616b4;
+    width: 60%; 
+    padding: 2rem;
+    border-radius: 0.8rem;
+    text-align: center; 
+    box-sizing: border-box; 
+}
+
+
+.seventh-heading{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.seventh-btn{
+    display: flex;
+    border:1px solid white ;
+    border-radius: 5px;
+    color: #D43E3E;
+    background-color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+    width:fit-content;
+    margin:auto;
+    margin-top: 2rem;
+
+}
+
+.seventh-btn:hover{
+    background-color: rgb(212, 212, 212);
+}

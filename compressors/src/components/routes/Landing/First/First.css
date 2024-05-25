@@ -1,0 +1,107 @@
+/* src/components/routes/Landing/First/First.css */
+
+
+.first-cont{
+    background-color: #D43E3E;
+    display: flex;
+    position: relative;
+    height: 70vh;
+    
+}
+
+.first-left{
+    width: 50%;
+    text-align: left;
+    margin: 1rem;
+    margin-left: 2rem;
+    color: white;
+}
+
+.first-l-content{
+    margin: auto;
+    margin-top: 8vh;
+    margin-left: 2vw;
+}
+
+.first-l-heading{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.first-l-subheading{
+    font-size: 4rem;
+    font-weight: 300;
+    border: 0.025px solid rgba(255, 255, 255, 0.219);
+    border-top: none;
+    border-left: none;
+    border-right:none;
+}
+
+.first-l-para{
+    line-height: 1.6;
+    margin-top: 1rem ;
+    margin-bottom: 2rem;
+}
+
+.btns{
+    display: flex;
+    gap:1rem;
+}
+
+.btns-know{
+    border:1px solid white ;
+    border-radius: 3px;
+    color: #D43E3E;
+    background-color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+
+}
+
+.btns-know:hover{
+    background-color: rgb(212, 212, 212);
+
+}
+
+.btns-cont{
+    border:1px solid white ;
+    border-radius: 3px;
+    background-color: #D43E3E;
+    color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+
+}
+
+.btns-cont:hover{
+    background-color: #a12e2e;
+
+}
+
+.first-right{
+    width:50%;
+}
+
+.all-machines{
+    width: 100%;
+    margin: auto;
+    margin-top: -3rem;
+}
+
+/* ************ */
+
+.first-cont-second{
+    position: relative;
+    height: 20vh;
+    display: flex;
+    gap: 1rem;
+    margin: auto;
+    background-color:  #DC4949;
+    color: white;
+}
+
+.first-cont-three{
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}

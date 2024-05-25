@@ -1,0 +1,43 @@
+/* src/components/routes/Landing/Forth/Forth.css */
+
+
+.four-cards-second{
+    height: auto;
+    margin: auto;
+    margin-top: 2rem;
+    width:95%;
+
+}
+
+.cardd{
+    width: 18rem;
+    height: 20rem;
+    margin: auto;
+    margin-bottom: 5rem;
+    background-color: rgba(168, 162, 162, 0.082);
+}
+
+
+.img-icon{
+    width:3rem;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+    
+}
+
+
+
+
+
+
+/* for mobile screens */
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+
+    .cardd{
+        margin: auto;
+        margin-bottom: 6rem;
+        /* margin-left: 15%; */
+        width: 25rem;
+    }
+
+}

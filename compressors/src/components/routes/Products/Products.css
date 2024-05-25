@@ -1,0 +1,445 @@
+/* src/components/routes/Products/Products.css */
+
+
+
+.products-main-cont {
+    position: relative;
+    height: 90vh;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    z-index: -1;
+}
+
+.products-content {
+    position: relative; 
+    z-index: 10;
+    color: white; 
+    background-color: #c61616b4;
+    width: 75%; 
+    padding: 2rem;
+    border-radius: 0.8rem;
+    text-align: center; 
+    box-sizing: border-box; 
+}
+
+
+.products-heading{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+
+/* *************** */
+
+
+.products-first{
+    display: flex;
+    margin-bottom:1rem;
+    background-color: #FAE8E8;
+}
+
+.products-first-left{
+    width: 50%;
+    text-align: left;
+    margin-left:5rem ;
+    color: black;
+}
+
+.products-f-l-content{
+    margin-left: 2vw;
+    margin-top: 10vh;
+}
+
+
+.products-f-l-heading{
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.products-f-l-para{
+    color: rgb(54, 42, 42);
+}
+
+.products-f-l-btn{
+    border:1px solid#D43E3E ;
+    border-radius: 5px;
+    color: white;
+    background-color: #D43E3E;
+    padding: 0.5rem;
+    cursor: pointer;
+    width:fit-content;
+    margin-top: 2rem;
+
+}
+
+.products-f-l-btn:hover{
+    background-color: #9b2c2c;
+}
+
+.products-first-right{
+    width:50%;
+}
+
+.oil-free{
+    width: 50vw;
+}
+
+
+/* ************** */
+
+
+
+
+.products-second{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+
+.products-second-left{
+    width:50%;
+}
+
+.oil-lubri{
+    width: 50vw;
+}
+
+
+.products-second-right{
+    width:50%;
+    text-align: left;
+    margin-right:5rem ;
+    color: black;
+}
+
+.products-s-l-content{
+    margin-right: 2vw;
+    margin-top: 10vh;
+
+}
+
+.products-s-l-heading{
+    margin-bottom: 1rem;
+    line-height: 1.5;
+
+}
+
+.products-s-l-para{
+    color: rgb(54, 42, 42);
+
+}
+
+.products-s-l-btn{
+    border:1px solid#D43E3E ;
+    border-radius: 5px;
+    color: white;
+    background-color: #D43E3E;
+    padding: 0.5rem;
+    cursor: pointer;
+    width:fit-content;
+    margin-top: 2rem;
+
+}
+
+.products-s-l-btn:hover{
+    background-color: #9b2c2c;
+}
+
+
+/* *************** */
+
+
+.products-third{
+    display: flex;
+    margin-bottom: 1rem;
+    background-color: #FAE8E8;
+}
+
+.products-third-left{
+    width: 50%;
+    text-align: left;
+    margin-left:7rem ;
+    color: black;
+}
+
+.products-t-l-content{
+    margin-left: 2vw;
+    margin-top: 10vh;
+}
+
+
+.products-t-l-heading{
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.products-t-l-para{
+    color: rgb(54, 42, 42);
+}
+
+.products-t-l-btn{
+    border:1px solid#D43E3E ;
+    border-radius: 5px;
+    color: white;
+    background-color: #D43E3E;
+    padding: 0.5rem;
+    cursor: pointer;
+    width:fit-content;
+    margin-top: 2rem;
+
+}
+
+.products-t-l-btn:hover{
+    background-color: #9b2c2c;
+}
+
+.products-third-right{
+    width:50%;
+}
+
+.air-compp{
+    width: 20vw;
+}
+
+/* ********* */
+
+
+
+.products-forth{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+
+.products-forth-left{
+    width:50%;
+}
+
+.portable{
+    width: 40vw;
+    margin-right: 5vw;
+}
+
+
+.products-forth-right{
+    width:50%;
+    text-align: left;
+    margin-right:5rem ;
+    color: black;
+}
+
+.products-fo-l-content{
+    margin-top: 10vh;
+    margin-right: 2vw;
+
+}
+
+.products-fo-l-heading{
+    margin-bottom: 1rem;
+    line-height: 1.5;
+
+}
+
+.products-fo-l-para{
+    color: rgb(54, 42, 42);
+
+}
+
+.products-fo-l-btn{
+    border:1px solid#D43E3E ;
+    border-radius: 5px;
+    color: white;
+    background-color: #D43E3E;
+    padding: 0.5rem;
+    cursor: pointer;
+    width:fit-content;
+    margin-top: 2rem;
+
+}
+
+.products-fo-l-btn:hover{
+    background-color: #9b2c2c;
+}
+
+
+/* *************** */
+
+
+.products-fifth{
+    display: flex;
+    margin-bottom: 1rem;
+    background-color: #FAE8E8;
+}
+
+.products-fifth-left{
+    width: 50%;
+    text-align: left;
+    margin-left:6rem ;
+    color: black;
+}
+
+.products-fi-l-content{
+    margin-left: 5vw;
+    margin-top: 8vh;
+}
+
+
+.products-fi-l-heading{
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.products-fi-l-para{
+    color: rgb(54, 42, 42);
+}
+
+.products-fi-l-btn{
+    border:1px solid#D43E3E ;
+    border-radius: 5px;
+    color: white;
+    background-color: #D43E3E;
+    padding: 0.5rem;
+    cursor: pointer;
+    width:fit-content;
+    margin-top: 2rem;
+
+}
+
+.products-fi-l-btn:hover{
+    background-color: #9b2c2c;
+}
+
+.products-fifth-right{
+    width:50%;
+}
+
+.rotary{
+    width: 20vw;
+}
+
+
+/* ************** */
+
+
+
+
+.products-sixth{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+
+.products-sixth-left{
+    width:50%;
+}
+
+.gas{
+    width: 40vw;
+}
+
+
+.products-sixth-right{
+    width:50%;
+    text-align: left;
+    margin-right:5rem ;
+    color: black;
+}
+
+.products-si-l-content{
+    margin-right: 2vw;
+    margin-top: 10vh;
+
+}
+
+.products-si-l-heading{
+    margin-bottom: 1rem;
+    line-height: 1.5;
+
+}
+
+.products-si-l-para{
+    color: rgb(54, 42, 42);
+
+}
+
+.products-si-l-btn{
+    border:1px solid#D43E3E ;
+    border-radius: 5px;
+    color: white;
+    background-color: #D43E3E;
+    padding: 0.5rem;
+    cursor: pointer;
+    width:fit-content;
+    margin-top: 2rem;
+
+}
+
+.products-si-l-btn:hover{
+    background-color: #9b2c2c;
+}
+
+/* *************** */
+
+
+.products-seventh{
+    display: flex;
+    margin-bottom: 4rem;
+    background-color: #FAE8E8;
+}
+
+.products-seventh-left{
+    width: 50%;
+    text-align: left;
+    margin-left:5rem ;
+    color: black;
+}
+
+.products-se-l-content{
+    margin-left: 2vw;
+    margin-top: 10vh;
+}
+
+
+.products-se-l-heading{
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.products-se-l-para{
+    color: rgb(54, 42, 42);
+}
+
+.products-se-l-btn{
+    border:1px solid#D43E3E ;
+    border-radius: 5px;
+    color: white;
+    background-color: #D43E3E;
+    padding: 0.5rem;
+    cursor: pointer;
+    width:fit-content;
+    margin-top: 2rem;
+
+}
+
+.products-se-l-btn:hover{
+    background-color: #9b2c2c;
+}
+
+.products-seventh-right{
+    width:50%;
+}
+
+.diesel{
+    width: 50vw;
+}
+

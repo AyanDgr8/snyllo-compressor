@@ -1,0 +1,133 @@
+/* src/components/routes/Landing/Sixth/Sixth.css */
+
+.sixth-first{
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.sixth-first-left{
+    width: 50%;
+    text-align: left;
+    margin-left:2rem ;
+    color: black;
+}
+
+.sixth-f-l-content{
+    margin-left: 2vw;
+    margin-top: 10vh;
+}
+
+.sixth-f-l-heading1{
+    font-size: 18px;
+    font-weight: 500;
+    color: #D43E3E;
+}
+
+.sixth-f-l-heading2{
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.sixth-f-l-para{
+    color: rgb(54, 42, 42);
+}
+
+.sixth-f-l-btn{
+    border:1px solid#D43E3E ;
+    border-radius: 5px;
+    color: white;
+    background-color: #D43E3E;
+    padding: 0.5rem;
+    cursor: pointer;
+    width:fit-content;
+    margin-top: 2rem;
+
+}
+
+.sixth-f-l-btn:hover{
+    background-color: #9b2c2c;
+}
+
+.sixth-first-right{
+    width:50%;
+}
+
+.factory1{
+    width: 80%;
+    height: 30rem;
+    border: 1px solid;
+    border-radius: 5px;
+    border: none;
+}
+
+/* ************** */
+
+
+.sixth-second{
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+
+.sixth-second-left{
+    width:50%;
+}
+
+.factory2{
+    width: 80%;
+    height: 30rem;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.sixth-second-right{
+    width:50%;
+    text-align: left;
+    margin-right:2rem ;
+    color: black;
+}
+
+.sixth-s-l-content{
+    margin-right: 2vw;
+    margin-top: 15vh;
+
+}
+
+.sixth-s-l-heading{
+    margin-bottom: 1rem;
+    line-height: 1.5;
+
+}
+
+.sixth-s-l-para{
+    color: rgb(54, 42, 42);
+
+}
+
+.sixth-s-l-btn{
+    border:1px solid#D43E3E ;
+    border-radius: 5px;
+    color: white;
+    background-color: #D43E3E;
+    padding: 0.5rem;
+    cursor: pointer;
+    width:fit-content;
+    margin-top: 2rem;
+
+}
+
+.sixth-s-l-btn:hover{
+    background-color: #9b2c2c;
+}
+
+
+/* ************* */
+
+.sixthh{
+    width: 100%;
+    height: auto;
+}

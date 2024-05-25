@@ -1,0 +1,29 @@
+/* src/components/routes/Landing/Third/Third.css */
+
+.third-container{
+    background-color: #C01E25;
+    /* background-color: #D43E3E; */
+}
+
+.third-c-heading{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.machines-slider{
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+
+}
+
+.slide img{
+    width: 25rem;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.machines-slider .slick-arrow.slick-prev,
+.machines-slider .slick-arrow.slick-next {
+    display: none !important;
+}
